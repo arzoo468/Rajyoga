@@ -1,0 +1,718 @@
+<html>
+<head>
+<title>
+Transformation from human to diety</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<link rel="stylesheet"href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+#welcome{position:absolute;bottom:0;display:table;width:100%;height:100%;background:linear-gradient(#c7b653 0%,#d45c96 100%);}
+#i2{width: 40%;border-radius:80%;}
+.inner{display:table-cell;vertical-align: middle;}
+#bio{padding:200px;text-align: center;background-color: black;}
+p{color:yellow;margin:25px auto;max-width:500px;}
+body{margin:0;padding-top:550px;text-align:center;background-color:rgb(215, 239, 109)}
+.menu{cursor:pointer;list-style:none;position:fixed;top:0px;margin-top:0px;z-index:10;background-color:white;width:100%}
+.links{display:inline;padding-left:90px;padding-right:35px;font-size:20px;}
+.links:hover{background-color:dodgerblue;color:black}
+.xs{font-family: Cochin; font-size: 20px;font-weight: bolder;}
+.paps:hover{font-family:Tahoma;font-weight:bolder;font-size:20px}
+#w:hover{color:white}
+#v:hover{color:white}
+#c:hover{color:white}
+
+#co:hover{color:white}
+#m:hover{color:white}
+#g, #d{color:red}
+#r1{font-size:15px; color:#4604eb}
+#si{font-size:15px;color:silver;max-width: 500px;margin-left:300px;}
+#j1{width: 500px;height: 450px;border-radius:30px}
+#pr{width: 500px;height: 450px;border-radius:30px}
+#kal{width:500px;height: 450px;border-radius:30px}
+#san{width:500px;height: 450px;border-radius:30px}
+#name{font-weight: bold;font-family: Trebuchet;color:#cada1b;text-shadow: 5px 5px 10px black;}
+#sidi{font-weight: bold;font-family: Trebuchet;color:#ee0978;text-shadow: 5px 5px 10px black;}
+#te{font-weight: bold;font-family: Trebuchet;color:#ee0978;text-shadow: 5px 5px 10px black;}
+#dic{font-weight: bold;font-family: Trebuchet;color:#4604eb;text-shadow: 5px 5px 10px black;}
+#ben{font-weight: bold;font-family: Trebuchet;color:#073402;text-shadow: 5px 5px 10px black;}
+.tea{font-weight: bold;font-family: Trebuchet;color:#db2110;text-shadow: 5px 5px 10px black;}
+.pow{height:450px}
+.bs{border-radius: 0px;height:350px;width:1000px}
+
+a{text-decoration:none;}
+#powers{background-color:rgb(192, 84, 84);}
+#habits{background-color:pink;}
+#father{background-color:yellowgreen;}
+#virtues{background-color:brown;}
+#births{background-color: green;}
+
+.art:hover{color: #27ae60;font-size:25px;font-weight:bold;}
+.p h3{display:inline;color:black;}
+.p{background-color: palevioletred}
+.kr{height:450px;width:450px}
+.g{height:300px;width:450px}
+.g1{height:300px;width:500px}
+
+.movie_head
+{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.movie_head i
+{
+float: right;
+}
+.movie_head span{float:left}
+
+.environment_li
+{
+  margin-top: 13px;
+}
+
+.environment_li h4
+{
+    border-bottom: 1px solid white;
+    padding: 8px;font-size:25px;color:red;font-family: cursive;font-weight: bolder;
+}
+
+.environment_li img
+{
+  border-radius: 100px;height:350px;
+}
+
+.environment_li p
+{
+  margin-top:10px;font-size:18px;font-weight: bolder;color:blue
+}
+
+#myCarousel img
+{
+    height: 300px;
+    margin-top: 35px;
+}
+
+.carousel-inner p
+{
+    margin-top: 15px;
+    color :blue;font-family: Geneva;
+    font-size: 20px;
+}
+
+.header_entrepreneur
+{
+  line-height: 2;
+}
+
+.book
+{
+  cursor: pointer;
+}
+
+.book hr
+{
+  margin-bottom: 10px;
+}
+
+.modal-content
+{
+  margin-top: 100px;
+}
+
+.img_modal
+  {
+    display: inline-block;
+  }
+.p_modal
+  {
+      margin-top: 10px;color:blue;font-weight: bolder;
+}
+.modal-body
+{
+    text-align: center
+}
+
+#u{font-family:serif;color:gold}
+#su{font-family:serif;color:aqua}
+#x{font-family:serif;color:#cada1b}
+#z{font-family:serif;color:aquamarine}
+
+
+</style>
+<body>
+<ul class="menu">
+<li class="links"><a id="w"href="#welcome">Introduction</a></li>
+<li class="links"><a id="v"href="#steps">Dark aged life</a></li>
+<li class="links"><a id="m"href="#life">Confluence Age</a></li>
+<li class="links"><a id="a"href="#hurdles">Hurdles</a></li>
+<li class="links"><a id="co"href="#vic">Victory</a></li>
+</ul>
+
+<!-- Intro -->
+<section id="welcome">
+<div class="inner">
+<h1 id="name"> 
+ Where are the Dieties Now?
+</h1>
+<img src="images\avatar\dities.jpg"id="i2">
+<h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="x">We worship many dieties</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="z">There are 33 crores of dieties</span></h1>
+<h1 id="u">Dieties are souls with divinity</h1><h1 id="su">But are God & dieties the same?</h1>
+</div>
+</section>
+<section id="bio">
+<p>
+    It is important to understand how each soul is on a journey. The soul descends from the eternal home during the Golden period and wears the bodily
+    costume of a diety. The world was purest of pure. Nature was at its best. Dieties led a perfect life filled with health, wealth and happiness. They had unbelievable mental powers
+     to achieve anything effortlessly. This was the outcome of practicising Rajyoga meditation in their previous birth during
+      the Confluence age when the Supreme soul Himself imparted the knowledge. Such was their life that they knew no vices. They were worship worthy. The time is still remembered as Heaven, Paradise etc. Heaven is not a place, but is the time when souls were 100% pure. And it is this very earth, this very Bharat that was heaven. Only 9,00,000 souls took birth as dieties in the golden period. 
+    <br><br><br>
+    <img id="j1"src="images\avatar\golden.png">
+    <br>
+    <br>
+    <h2 id="si">But time turned and after 1250 years of Golden period, when the souls lost 20% of their purity they entered the Silver period. They were still dieties, but lost their original lustre. Also new souls kept descending from the soul world to be born during this period. This period lasted for 1250 years. And the population increased to 33 crores</h2>
+   <br><br>
+   <img id="pr"src="images\avatar\silver.png">
+   
+   
+    
+<p id="r1">By now the cycle completed 2500 years and the souls lost 50% of their purity & power as body consciousness set it and with it came the vices. Also population kept increasing. They started looking for God, worshipping and building grand temples in memory of the
+   Supreme Father, Shiv. Then they built temples dedicated to the dieties. They did not remember that they were themselves the dieties in their previous births. 
+   This was the Copper period. <br>Time kept turning, and it changed to the Iron age, when human souls completely lost their purity and were under the influence of vices. The ones who were once dieties, now transformed into ordinary humans and that too sinners. Old age, sickness, death, sorrow, misery and darkness are the gifts of the negativities/vices inside us. When we lose our purity, we lose everything. This is the story of rise and fall of Bharat.  </p>
+    <br><br>
+    
+    
+   <img id="kal"src="images\avatar\Kali-Yuga2.jpg">
+   <hr>
+   <p>5000 years passed, and time has completed one complete cycle. Its time for rise of Bharat once again. Its the time of transformation. The time is the confluence
+     between the end of the Iron & beginning of the Golden Period. This is the time when God decides to intervene. 
+     He descends on this earth. He talks through the mouth of Brahma, teaches the highest of high knowledge
+      of Rajyoga meditation and awakens us. This is the only way to cleanse ourselves once again, and regain our lost glory of dietyhood. Its time for the next age-The Golden Age. </p>
+    <hr>
+    <br>
+    <img id="san"src="images\avatar\sangam.png">
+    <h3 id="g">God is the Supreme soul, Highest of High, the unborn, always worship worthy and Ocean of purity permanently.</h3>
+    <br>
+    <h4 id="d">Dieties are pure & perfect human souls, who take birth in a body, leaves one body for another, possess divine qualities, becomes worship worthy, but temporarily.  </h4>
+</section>
+<br><br><br><br><br>
+
+
+
+
+<!-- steps -->
+<section id ="steps">
+<h1 id="sidi">
+Dark Aged Life
+</h1>
+<mark>Dieties in Dark Age</mark>
+<hr>
+
+<div class="bg-primary movie_head" data-toggle="collapse" data-target="#avengers_endgame" >
+    <span class="glyphicon glyphicon-asterisk"></span> Body consciousness<i class="fa fa-sort-desc" ></i>
+  </div>
+
+  <div id="avengers_endgame" class="collapse">
+
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+	  		<img src="images\avatar\bodyconscious.png" class="img-responsive img-thumbnail"> 
+	  </div>
+
+	  <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text" >
+		  <h5 class="text-light text-bold text-center text-capitalize xs">Started identifying oneself with the body
+        
+      </h5>
+		  <p class="text-info text-bold paps">The same dieties who were naturally soul conscious, now became body conscious. They started
+         thinking that one is the body that one can see. They started forgetting the ultimate truth that one
+          is a soul wearing a body. Since the soul is not visible, they believed
+           in what was visible-the body. They forgot that the body was perishable. They started seeking pleasure through the sense organs. They 
+           started seeing others as bodies too, noticed their appearances and identified
+            them as bodies. Slowly they became gender conscious, and observed bodies as males and females. 
+            Gradually this gave birth to vices-lust, anger, greed, attachment and ego. With time, 
+            they considered this normal and lead lives of impurity. Soon, they lost their position of 
+            worship worthy pure dieties, and got demoted to normal human beings. </p>
+	  </div>
+  
+  </div>
+
+
+  <div class="bg-info movie_head" data-toggle="collapse" data-target="#ass" >
+    <span class="glyphicon glyphicon-asterisk"></span> Conquered by vices<i class="fa fa-sort-desc" ></i>
+  </div>
+
+  <div id="ass" class="collapse">
+
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+	  		<img src="images\avatar\devils.png" class="img-responsive img-thumbnail"> 
+	  </div>
+
+	  <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text" >
+		  <h5 class="text-light text-center text-capitalize xs">Under the grip of the vices      </h5>
+		  <p class="text-danger paps">Vices are also known as Ravan, Maya, Satan, Devil, Mara etc. They do not exist outside. They are our
+         inner weaknesses & negativities-fear, ego, lust, attachment, greed, anger, envy, comparison, doubt, revenge etc that are 
+         all born from our body consciousness. 
+         The major vice is lust, and then the rest follows it. Since the Copper period, the human souls lost their purity 
+         and hence lost control of their own sense organs, their own mind. 
+         They indulged in vices as their minds were overpowered, and committed sins after sins. The 
+         worst part was that, they did not realise they were wrong and considered the vices to be normal. They 
+         lost the power to distinguish good from evil. Their life style changed and slowly degraded. 
+         They forgot themselves as souls, and as a result forgot the Father of all souls, God, thus losing divinity and falling from grace. They are 
+         given names such as Asur, Lucifer, Hades, PLuto, Hel, Melek Taus etc. Heaven turned to Hell</p>
+	  </div>
+  
+  </div>
+
+
+
+  <div class="bg-primary movie_head" data-toggle="collapse" data-target="#face" >
+    <span class="glyphicon glyphicon-asterisk"></span> Lost all powers<i class="fa fa-sort-desc" ></i>
+  </div>
+
+  <div id="face" class="collapse">
+
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+	  		<img src="images\avatar\powerlessness-1.jpg" class="img-responsive img-thumbnail"> 
+	  </div>
+
+	  <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text" >
+		  <h5 class="text-light text-center text-capitalize xs">Helplessness, despair, sorrow, darkness..
+        
+      </h5>
+		  <p class="text-danger paps">Once upon a time, the dieties were brimming with inner powers and led a life of complete happiness. Now the same dieties started
+         experiencing pain, weakness, powerlessness, confusion, tension, stress and lost all their wisdom. Oldage, 
+         sickness, death, sorrow and darkness took over their lives. They sought solace by remembering God, building temples,
+          going for piligrimages, doing some good deeds, writing scriptures. However they did not find any relief as they did not know who their real Father was. 
+          They forgot who they were. Body consciousness, the root cause of all misery started showing its true colors.  
+          Even then no one realised who the enemy was. 
+          As the enemy was hidden inside us. The sense organs took over, 
+          became the master and started controlling them. The dieties lost all consciousness. 
+          The world turned dark (Night of Brahma) and is called Kalyug. </p>
+	  </div>
+  
+  </div>
+
+  <div class="bg-info movie_head" data-toggle="collapse" data-target="#tol" >
+    <span class="glyphicon glyphicon-asterisk"></span> Lost all virtues<i class="fa fa-sort-desc" ></i>
+  </div>
+
+  <div id="tol" class="collapse">
+
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+	  		<img src="images\avatar\virtuelost.png" class="img-responsive img-thumbnail"> 
+	  </div>
+
+	  <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text" >
+		  <h5 class="text-light text-center text-capitalize xs">From 16 celestial degrees full to none        
+      </h5>
+		  <p class="text-danger paps">Shri Krishna, the first diety is still remembered 
+        as 16 celestial degrees full. He was the first complete and perfect human being on earth. When the dieties were soul conscious they radiated peace, love, happiness, bliss, power, wisdom and purity. 
+        They had divine qualities. They were talented and every virtue was reflected in their actions. 
+        They were naturally skilled in Arts, Science, Maths and creativity. They never trained or learned to acquire wisdom. However as they became body conscious,
+        lost their purity, they degraded and lost all their divine virtues. They were later 
+        shown as dark/blue skinned as vices are like poison for the soul. It is not the skin
+         color but the dark layer in the soul. The soul was stained with vices. They found themselves in a world of crimes, 
+         murder, rape, adultery, robbery-also referred to as "hell".
+          </p>
+	  </div>
+  
+  </div>
+
+  
+
+
+  <div class="bg-primary movie_head" data-toggle="collapse" data-target="#dec" >
+    <span class="glyphicon glyphicon-asterisk"></span> Became Worshippers<i class="fa fa-sort-desc" ></i>
+  </div>
+
+  <div id="dec" class="collapse">
+
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+	  		<img src="images\avatar\pujari.jpg" class="img-responsive img-thumbnail"> 
+	  </div>
+
+	  <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text" >
+		  <h5 class="text-light text-center text-capitalize xs">Seeking solace by worshipping        
+      </h5>
+		  <p class="text-danger paps">The same dieties who were once worship worthy now changed. Since they 
+        lost their inner power, they started seeking and calling out to the Supreme Father. The first temple in Somnath
+         was built in remembrance of God, the Supreme soul with no physical body. 
+         The Shiv Linga is just a symbol of the bodiless Father of all souls. The dieties 
+         started creating rituals, wrote scriptures, created pilgrimages and started doing 
+         welfare related deeds. However, this gave only momentary peace. Hence they started worshipping 
+         the ones who dwelt in heaven or in the Golden period in the form of ancestors. 
+         They could not remember that they are the same souls. Thats why they say "pujya so pujari", "Hum so so hum".</p>
+	  </div>
+  
+  </div>
+
+
+    </div>
+</section>
+<hr>
+
+
+
+
+  <!--techniques -->
+<section id="life">
+  <h1 id="te">Transformation Age</h1>
+  <hr>
+  <ul class="list-group">
+
+    <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li" >
+      <h4>God hears us</h4>
+      <img src="images\avatar\god.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12" >
+      <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12" >
+        As mentioned in Bhagavita Gita, God comes once at the end of each cycle of 5000 years, to liberate all souls, and take us back home. We called out to
+         Him since the Copper age. However He only descends on this earth when the world is in utter chaos, when all souls get stained 
+         with sins and the world becomes hell. He heard us, and is here now. One who has completed their devotion will come and recognize Him. He highlights the causes of sorrow, 
+          and provides the remedy. Whoever follows the remedies can be cleansed and can 
+          accompany Him to our sweet home, and then return back to heaven as dieties. 
+          He is not a human soul, but the highest of High and the Father of all souls-the Supreme soul. He is never born, hence has no body like us. He is the most powerful energy, and resembles a dot that cannot be viewed with our physical eyes.
+        
+        
+        
+        </p>
+     </li>
+
+    <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li"  >
+     <h4   >Prajapita Brahma</h4>
+     <img src="images\avatar\prajapita.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12" >
+     <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12" >
+God does not have parents and does not wear a physical costume called body. However He descends on 
+this earth to purify all the souls and create heaven. He shares the mysteries of the universe as He 
+is the Ocean of Knowledge. Now He needs a body so that He can perform his duties. He selects the body of the first soul Krishna, who is now 
+reborn as an ordinary human being named Lekhraj Kripalini. He was a family man, a successful diamond merchant and a pious human being. He 
+himself was unaware of his previous births. The Supreme soul speaks through his mouth and reminds him all 
+about his journey from the Golden period as Shree Krishna, and to now as a regular person. As God chooses Lekhraj Kripalini as his instrument, He renames him as Prajapita Brahma-the first born of God and the beginning of human creation.
+
+
+
+
+
+
+
+     </p>
+    </li>
+
+    <li class="list-group-item list-group-item-danger col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li"  >
+      <h4   >Rajyoga Meditation</h4>
+      <img src="images\avatar\rajyo.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12 pow" >
+      <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12" >
+To change from hell to heaven, from impure to pure, from humans to dieties and from imperfect to perfect, 
+God advocates "purity". Purity not only means celibacy but purity in thoughts, 
+words and deeds. Only complete purity can bring back peace and prosperity. To achieve that, God teaches Rajyog meditation by speaking through the mouth of Brahma. It is the
+science of mastering ourselves and becoming the king of our senses. The Supreme soul, whom we 
+lovingly address as "Shiv Baba" is the Ocean of Perfection. When we remember Him, direct our thoughts 
+towards Him and focus on His virtues we the souls experience transfer of energy from Him that empowers us to fight 
+against the vices and come out as winners. Dussehra and Vijay dashami are celebrated to commemorate this event of our victory.
+
+
+
+
+      </p>
+     </li>
+
+     <li class="list-group-item list-group-item-info col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li"  >
+      <h4   >Battle against vices</h4>
+      <img src="images\avatar\fight.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12" >
+      <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12" >
+The root cause of impurity in us is body consciousness. With body consciousness comes the major vices-lust, anger, greed, attachment & ego. Heaven 
+became hell only because of our impurities that dwell in us.  The only way out is to fight the negativities in us and wipe them out. The first step is to acknowledge our real enemy, the inner demons. The second step is to tackle the root cause and practice soul consciousness. The third step is to meditate on our Father, the Ocean of purity. The fourth step is to imbibe the Godly knowledge and use them as weapons. By doing this our inner powers that were left unused gets revived and our demonaic traits gradually get replaced by the divinity hidden within us. However the battle is tough and long. Eventually the soul wins. Thats why 9 days of festival is celebrated and the 10th day is the day of victory. That is the battle of the soul against demons of vices.
+
+
+
+
+      </p>
+     </li>
+
+     <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li"  >
+      <h4   >Human to Diety</h4>
+      <img src="images\avatar\humdiety.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12" >
+      <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12" >We changed from deities to humans to devils and so did the world. The world changed from heaven to hell. If we change, the world changes. As we practice Rajyoga meditation, remember God our Supreme Father, listen to the Godly knowledge and imbibe it, share the knowledge with others, follow all the dictates of the Supreme Father our life changes. 
+        Our divinity that was merged within us starts to emerge gradually. 
+        Our life changes and the transformation starts showing. We still live in this world yet not affected by the impurities just like a lotus flower 
+        blooming in mud. Our old habits and beliefs get replaced by new. The mind gets stronger and stable. Slowly humans improve and get closer to dietyhood. They are awakened. </p>
+     </li>
+
+     
+</ul>
+</section>
+
+
+<!-- Hurdles -->
+
+<section id="hurdles">
+  <hr><hr>
+  <h1 id="dic">Hurdles in the Path</h1>
+  <hr><hr>
+  
+<h2><kbd>The path is difficult but not impossible</kbd></h2>
+
+
+<div id="myCarousel" class="carousel slide" >
+  <center>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        
+          <img src="images\avatar\oldha.jpg">
+        </a>
+        <p>Our old habits that are stamped into the subconscious mind may pose as a barrier. We may keep getting drawn to our old ways as that comes naturally to us now.</p>
+      </div>
+
+      <div class="item">
+      
+          <img src="images\avatar\excuses.jpg">
+        </a>
+          <p>If we do not prioritize spirituality and keep pushing it for later, or keep postponing it or keep giving excuses, that may pose as a hurdle.  </p>
+        </div>
+
+        <div class="item">
+      
+          <img src="images\avatar\noresul.jpg">
+        </a>
+          <p>When we see transformation happening slowly or see no changes at all, we may get disheartened and may want to give up.</p>
+        </div>
+        <div class="item">
+      
+          <img src="images\avatar\attrac.jpg">
+        </a>
+          <p>Since we still live in the old world, we keep getting pulled towards it, get lured by the shortterm attractiveness, get pressurised by family&friends to give up. </p>
+        </div>
+        
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </center>
+  </div>
+</div>
+</section>
+
+
+<!-- transformation -->
+<section id="vic">
+
+  <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="books">
+    <hr>
+    <h2 class="tea">Why is the path so slippery, and steep?</h2>
+    <h2 class="tea">Keep moving ahead carefully as the goal is not too far</h2>
+
+</div>
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+  
+
+<h4>
+  <mark  class="header_entrepreneur">
+  <i>
+    <sup><i class="fa fa-quote-left"></i></sup>
+    योगस्थ: कुरु कर्माणि सङ्गं त्यक्त्वा धनञ्जय |
+सिद्ध्यसिद्ध्यो: समो भूत्वा समत्वं योग उच्यते || 48||
+    <sup><i class="fa fa-quote-right"></i></sup>
+    </i>
+  </mark>
+</h4>
+
+<h4>
+  <mark  class="header_entrepreneur">
+  <i>
+    <sup><i class="fa fa-quote-left"></i></sup>
+    Be steadfast in the performance of your duty, O Arjun, abandoning attachment to success and failure. Such equanimity is called Yog.
+
+
+    <sup><i class="fa fa-quote-right"></i></sup>
+    </i>
+  </mark>
+</h4>
+
+<img src="images\avatar\gita.jpg" class="img-responsive img-thumbnail kr">
+</div>
+
+<div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <h4 class="text-capitalize text-danger text-warning ">The War is on and Arjun wants to give up.</h4><br>
+    
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book"  data-toggle="modal" data-target="#First_Space_Encyclopaedia">
+  <img src="images\avatar\doit.jpg" class="img-responsive g">
+  <hr >
+  <h2 class="text-info">Prioritize spirituality </h2>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="First_Space_Encyclopaedia">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Become a Godly student</h4>
+      </div>
+      
+      <div class="modal-body">
+        <img src="images\avatar\nomore.jpg" class="img-responsive img_modal g1">
+        <p class="p_modal">
+          We live a busy life with many responsibilities. However to create harmony and to bring efficiency, meditation is a must. Realising 
+          the importance of daily spiritual studies, daily meditation and preparing a balanced timetable can make our life even more 
+          enjoyable, hurdles free as well as peaceful. We must become a Godly student with dedication and with all seriousness without compromising on our daily duties in life.
+
+
+          
+          <br>
+        <a href="https://www.youtube.com/watch?v=a2nO9bh_kPE"target="_blank"><b>Know More</b></a>
+         </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book"  data-toggle="modal" data-target="#virt">
+  <img src="images\avatar\oldways.jpg" class="img-responsive g">
+  <hr >
+  <h2 class="text-info">Replace old with new</h2>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="virt">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Old beliefs/habits still pull us down</h4>
+      </div>
+      
+      <div class="modal-body">
+        <img src="images\avatar\newmw.jpg" class="img-responsive img_modal g1">
+        <p class="p_modal">
+          While trying to imbibe the good habits and changing our old ways, it will be a struggle. Hence we should do not swim 
+          against the current. Instead of forcing the bad and old patterns to move out of our system, 
+          replace them with divine values. Fighting will be tiresome. If anger torments us, replace it with mercy, 
+          love, good wishes and calmness. If greed torments us, replace it with greed for more Godly knowledge..and so on.
+
+
+
+          <br>
+        <a href="https://youtu.be/M_8EmTN9rqM?si=Qvln7iVWAtFxp4Zx"target="_blank"><b>Know More</b></a>
+         </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book"  data-toggle="modal" data-target="#add">
+  <img src="images\avatar\fail.jpg" class="img-responsive g">
+  <hr >
+  <h2 class="text-info">Keep Faith</h2>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="add">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Expect fall, cuts & bruises on the way.</h4>
+      </div>
+      
+      <div class="modal-body">
+        <img src="images\avatar\success.jpg" class="img-responsive img_modal g1">
+        <p class="p_modal">
+          It is wrong to expect results overnight for any course. This course is about unveiling the 
+          divinity within us, in 1 birth. It is not easy as it sounds because, for 63 births we were into vices, bad habits 
+          and wrong beliefs. Now we are in the right path and will certainly reach our dietyhood, if we overcome the challenges 
+          that stand in our way. As a memory of our struggles, ShriKrishna is shown as fighting his 
+          weaknesses in the form of a poisonous snake. ShriDurga struggling with her inner demons in the form of 
+          Mahisasura. Arjun at war with his own family members. Finally, victory is certain. We need to be 
+          positive, certain, confident and determined. As God Himself is on our side. 
+          <br>
+        <a href="https://www.youtube.com/watch?v=BPN3eC7tI7c"target="_blank"><b>Know More</b></a>
+         </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book"  data-toggle="modal" data-target="#con">
+  <img src="images\avatar\vairagya.jpg" class="img-responsive g">
+  <hr >
+  <h2 class="text-info">Tempory old world</h2>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="con">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Dont be attracted by the golden deer</h4>
+      </div>
+      
+      <div class="modal-body">
+        <img src="images\avatar\golddeer.jpg" class="img-responsive img_modal g1">
+        <p class="p_modal">
+          Ramayana depicts how getting attracted to the golden deer that was not even real gold, 
+          turned life of Sita topsy turvy. The old world with all its deceitful charm and 
+          attractiveness may lure us. Stop to think and refresh your memory, how this old world will be 
+          destroyed and replaced with permanent heaven. Live here like a lotus flower that blooms 
+          in the mud. It does not let the dirt around it, influence it. Instead it blooms in all its beauty and purity. Dont get 
+          carried away or influenced by the pomp and show. Remain awakened. Remain in consciousness.   
+          
+          
+          
+          <br>
+        <a href="https://www.youtube.com/watch?v=HmwZP3mRLfQ"target="_blank"><b>Know More</b></a>
+         </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
